@@ -17,8 +17,7 @@
 
 header{
     background-color: black;
-    
-
+    margin: auto;
 }
 
 header h1{
@@ -50,7 +49,7 @@ header p a{
 a:hover{
     text-decoration: underline;
     color: burlywood;
-    
+
 
 }
 
@@ -59,10 +58,10 @@ main{
     min-height: 100vh;
     padding-top: 100px;
     text-align: left;
-    font-size: 4vw;
- 
+    font-size: 4vw; 
+
 }
-  
+
 
 section{
     padding-top: 15vh;
@@ -70,59 +69,57 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-size: 4vw;
+    color: white;
+    font-family: var(--fonte-p);
+    text-align: left;
+    
+    
 }
 
-.imagem{
+section.normal{
+    background-color: white;
+    color: black;
+    
+}
+
+section.imagem{
     background-image: url(imagens/background001.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position:right center;
-    margin: auto;
     background-attachment: fixed;
     min-width: 460px;
     padding-top: 70px;
     padding-bottom: 70px;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.342);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
+    
     
 }
 
 section.imagem p{
     background-color: rgba(0, 0, 0, 0.315);
-    color: white;
-    font-family: var(--fonte-p);
-    text-align: left;
-    font-size: 4vw;
-    display: inline-block;
-    padding: 5px;
+    display: inline-block;   
     text-shadow: 1px 1px 0px black;
+    padding: 5px; 
     
 }
 
-
-.imagem2{
+section.imagem2{
     background-image: url(imagens/background002.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: right center;
-    margin: auto;
     background-attachment: fixed;
     min-width: 460px;
     padding-top: 70px;
     padding-bottom: 70px;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
+    
 }
 
 section.imagem2 p{
-    background-color: rgba(0, 0, 0, 0.315);
-    color: white;
-    font-family: var(--fonte-p);
-    text-align: left;
-    font-size: 4vw;
+    background-color: rgba(0, 0, 0, 0.315);    
     display: inline-block;
+    text-shadow: 1px 1px 0px black; 
     padding: 5px;
-    text-shadow: 1px 1px 0px black;
-    
-    
     
 }
 

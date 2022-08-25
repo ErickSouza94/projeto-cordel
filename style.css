@@ -13,6 +13,8 @@
 *{
     margin: 0px;
     padding: 0px;
+    min-width: 320px;
+    max-width: 2640px;
 }
 
 header{
@@ -87,10 +89,11 @@ section.imagem{
     background-size: cover;
     background-position:right center;
     background-attachment: fixed;
-    min-width: 460px;
+    min-width: 320px;
     padding-top: 70px;
     padding-bottom: 70px;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
+    
     
     
 }
@@ -101,6 +104,8 @@ section.imagem p{
     text-shadow: 1px 1px 0px black;
     padding: 5px; 
     
+
+    
 }
 
 section.imagem2{
@@ -108,7 +113,7 @@ section.imagem2{
     background-size: cover;
     background-position: right center;
     background-attachment: fixed;
-    min-width: 460px;
+    min-width: 320px;
     padding-top: 70px;
     padding-bottom: 70px;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
